@@ -1,18 +1,2 @@
-Framework
+Framework de vote
 
-L'objectif principal de ce framework était de réaliser un ensemble de composant logiciel qui nous permet, la mise en place d'un vote.
-
-- démarche 1
-La première démarche consistait à faire une abstraction de notre système de vote, les conditions essentielles d'un vote, les contextes de façon abstraite. Et ensuite de greffer autour de cette abstraction un ensemble d'implémentation de cas concret. 
-
-- exemple tout vote a au moins un tour quelqu'en soit le type la manière ou encore les candidations de vote.
-Comme abstraction nous pouvons avoir aussi les Système Abstrait de decomptages d'un vote, d'un electeur abstrait, un candidat appelé aussi eligible.
-
-paquage.
-Gvote : contiens les abstractions nécessaires aux votes.
-factory : création des différents votes.
-
-Implementation ________ : implémentation des diffèrents type de vote que nous avons implémenté.
-
-GUIAbstrait : Toolkit graphique indépendant de toute implémentation Graphique.
-GUI : implémentation de Graphique Swing.
